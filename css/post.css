@@ -1,0 +1,76 @@
+.post-main {
+    min-height: 80vh;
+    background-color: var(--light-bg-color);
+    padding: 40px 20px;
+}
+
+.content-post {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, 1fr) 1fr;
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-post img {
+    width: 100%;
+}
+
+.content-post h1 {
+    font-size: 40px;
+}
+
+.content-post figure {
+    margin: 0;
+    grid-column: 1 / -1;
+}
+
+.content-post p,  .content-post h1, .content-post .post-author{
+    grid-column: 2 / -2;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.post-author-details {
+    margin-left: 20px;
+}
+
+.post-author-details p {
+    margin: 0;
+}
+
+.post-author-details .post-author-name {
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.post-author-details .post-author-date {
+    color: var(--text--accent-color);
+    font-size: 12px;
+}
+
+.post-share {
+    grid-column: 1 / span 1;
+}
+
+.post-share ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.post-share img {
+    width: 40px;
+    padding: 5px;
+}

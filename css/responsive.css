@@ -1,0 +1,23 @@
+@media (max-width:450px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:451px) and (max-width:800px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+}

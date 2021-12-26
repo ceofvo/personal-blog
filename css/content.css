@@ -1,0 +1,50 @@
+.content {
+    min-height: 80vh;
+    background-color: var(--light-bg-color);
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--btn-text);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content a {
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    border: 1px solid var(--main-color);
+    color: var(--btn-text);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.card-content .card-date {
+    margin: 0;
+    color: var(--text--accent-color);
+    font-size: 12px;
+}
+
+.card-content h2 {
+    margin-bottom: 5px;
+}
+
+.card-content {
+    padding: 20px;
+}
