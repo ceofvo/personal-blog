@@ -25,7 +25,7 @@
     grid-column: 1 / -1;
 }
 
-.content-post p,  .content-post h1, .content-post .post-author{
+.content-post p,  .content-post h1, .content-post .post-author, .content-post blockquote{
     grid-column: 2 / -2;
 }
 

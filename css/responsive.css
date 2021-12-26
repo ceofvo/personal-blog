@@ -8,6 +8,10 @@
         justify-items: center;
         flex-direction: column;
     }
+    .content-post {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (min-width:451px) and (max-width:800px) {
@@ -19,5 +23,9 @@
         display: flex;
         justify-items: center;
         flex-direction: column;
+    }
+    .content-post {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
